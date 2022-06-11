@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <div id='footer' className='container footer-container'>
         <h1>My Footer
-            <a href="#home">
+            <a href="#Main">
                 <h2>
                     <BsMouse />- scroll up-
                 </h2>
