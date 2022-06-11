@@ -1,4 +1,6 @@
 .footer-container {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 20%, rgba(148, 187, 233, 1) 79%);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -7,17 +9,15 @@
     min-height: 30vh;
     margin-top: 80px;
     margin-bottom: 80px;
-
 }
 
-.foot-container h1{
+.foot-container, h1 {
     font-family: "Open Sans Condensed", sans-serif;
-    font-weight: 100;
+    font-weight: 800;
     font-size: 25px;
     margin: 0 auto;
     text-align: center;
     text-transform: capitalize;
-
 }
 
 .footer-container h2 {
@@ -36,7 +36,7 @@
 
 }
 
-.footer-container h2:hover{
+.footer-container h2:hover {
     background-color: pink;
 }
 
@@ -60,7 +60,17 @@
     transition: background .2s ease;
 }
 
-.social-links .social:hover{
+.social-links .social:hover {
     background-color: pink;
     fill: var(--color-pri);
+}
+
+span {
+    font-size: 15px;
+    color: pink;
+}
+
+span:hover {
+    color: blueviolet;
+    cursor: pointer;
 }

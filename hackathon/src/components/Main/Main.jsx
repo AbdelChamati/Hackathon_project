@@ -5,7 +5,7 @@ const Main = ({ imageSrc }) => {
   return (
     <div className='main'>
         <img src={imageSrc} alt="mads" className='main_image' />
-        <h1 className='main_title'>Welcome!</h1>
+        <h1 className='main_title'>M.A.D.S</h1>
     </div>
   )
 }

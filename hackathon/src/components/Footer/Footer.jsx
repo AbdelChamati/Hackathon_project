@@ -3,9 +3,9 @@ import "./Footer.css";
 import { BsMouse } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
-import { TiSocialDribbble } from "react-icons/ti";
+// import { TiSocialDribbble } from "react-icons/ti";
 import { TiSocialYoutube } from "react-icons/ti";
-import { TiSocialGithub } from "react-icons/ti";
+// import { TiSocialGithub } from "react-icons/ti";
 
 
 
@@ -14,30 +14,35 @@ import { TiSocialGithub } from "react-icons/ti";
 const Footer = () => {
   return (
     <div id='footer' className='container footer-container'>
-        <h1>My Footer
-            <a href="#Main">
-                <h2>
-                    <BsMouse />- scroll up-
-                </h2>
-            </a>
-        </h1>
-        <div className="social-links">
-            <a href="https://Instagram.com">
-              <BsInstagram className='social'/>
-            </a>
-            <a href="https://facebook.com">
-              <FaFacebookF className='social'/>
-            </a>
-            <a href="#a">
-              <TiSocialDribbble className='social'/>
-            </a>
-            <a href="https://youtube.com">
-              <TiSocialYoutube className='social'/>
-            </a>
-            <a href="https://github.com">
-              <TiSocialGithub className='social'/>
-            </a>
-        </div>
+      <h1>M.A.D.S
+        <a href="Main">
+          <h2>
+            <BsMouse />- scroll up-
+          </h2>
+        </a>
+      </h1>
+      <div className="social-links">
+        <a href="https://Instagram.com">
+          <BsInstagram className='social' />
+        </a>
+        <a href="https://facebook.com">
+          <FaFacebookF className='social' />
+        </a>
+        {/* <a href="#a">
+          <TiSocialDribbble className='social' />
+        </a> */}
+        <a href="https://youtube.com">
+          <TiSocialYoutube className='social' />
+        </a>
+        {/* <a href="https://github.com">
+          <TiSocialGithub className='social' />
+        </a> */}
+
+      </div>
+      <div className='social-links'>
+        <span>© 2022 All rights reserved.</span>
+        {/* <span>Terms · Privacy Policy</span> */}
+      </div>
     </div>
   )
 }
