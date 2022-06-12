@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hackathon/static/css/main.9dcc70d2.css",
+    "main.js": "/hackathon/static/js/main.6606fb5e.js",
+    "static/media/water.jpeg": "/hackathon/static/media/water.942bac2ceb0a3172c638.jpeg",
+    "static/media/LOGO-MADS-final.png": "/hackathon/static/media/LOGO-MADS-final.357a1898085a9eb8047c.png",
+    "static/media/image1.png": "/hackathon/static/media/image1.59a42d474263f831f2c1.png",
+    "static/media/Globe-2.png": "/hackathon/static/media/Globe-2.fb91362a8cc602a1450d.png",
+    "static/media/world.png": "/hackathon/static/media/world.1b2f125e20d00e0d9cf3.png",
+    "static/media/footer-1.png": "/hackathon/static/media/footer-1.7f5f98b6bc7ed10d8fdd.png",
+    "index.html": "/hackathon/index.html",
+    "main.9dcc70d2.css.map": "/hackathon/static/css/main.9dcc70d2.css.map",
+    "main.6606fb5e.js.map": "/hackathon/static/js/main.6606fb5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dcc70d2.css",
+    "static/js/main.6606fb5e.js"
+  ]
+}
