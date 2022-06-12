@@ -37,7 +37,7 @@ const Contact = () => {
     <form className="form" onSubmit={handleSubmit}>
       <h1>Contact Us</h1>
 
-      <label>Name</label>
+      {/* <label>Name</label> */}
       <input
         placeholder="Name"
         value={name}
@@ -45,22 +45,22 @@ const Contact = () => {
         required
       />
 
-      <label>Email</label>
+      {/* <label>Email</label> */}
       <input
         placeholder="Email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
       />
-      <label>Choose a subject</label>
+      {/* <label>Choose a subject</label> */}
       <select id="field" name="jobs" required>
-        <option value="choose">Choose</option>
+        <option value="choose">Choose a subject</option>
         <option value="web-dev">Web Developer</option>
         <option value="Online-marketing">Online Marketing</option>
         <option value="both">Both</option>
       </select>
 
-      <label>Message</label>
+      {/* <label>Message</label> */}
       <textarea
         placeholder="Message"
         value={message}

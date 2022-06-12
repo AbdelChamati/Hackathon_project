@@ -88,7 +88,7 @@ const Footer = () => {
             <h4>Contact us</h4>
             <ul>
               <li>
-                <a href="../users/Subscribe.jsx">Form</a>
+                <a href="contact">Form</a>
               </li>
             </ul>
           </div>
