@@ -67,37 +67,25 @@ const Footer = () => {
   	 			<h4>get help</h4>
   	 			<ul>
   	 				<li><a href="home">FAQ</a></li>
-  	 				 {/* <li><a href="#">shipping</a></li>
-  	 				<li><a href="#">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="#">payment options</a></li> */}
+
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
   	 			<h4>Career</h4>
   	 			<ul>
   	 				<li><a href="home">Vacancies</a></li>
-  	 				 {/* <li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li> */}
+
   	 			</ul>
   	 		</div>
   	 		<div className="footer-col">
   	 			<h4>Contact us</h4>
            <ul>
   	 				<li><a href="home">Form</a></li>
-  	 				 {/* <li><a href="#">bag</a></li>
-  	 				<li><a href="#">shoes</a></li>
-  	 				<li><a href="#">dress</a></li> */}
+
   	 			</ul>
 
 
-  	 			{/* <div className="social-links">
-  	 				<a href="home"><i className="fab fa-facebook"></i></a>
-  	 				<a href="home"><i className="fab fa-twitter"></i></a>
-  	 				<a href="home"><i className="fab fa-instagram"></i></a>
-  	 				<a href="home"><i className="fab fa-linkedin-in"></i></a>
-  	 			</div> */}
+
   	 		</div>
   	 	</div>
   	 </div>
