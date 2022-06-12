@@ -24,7 +24,7 @@ ul{
 	background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
-	background-color: #f266b3;
+	background-color: #0d0d0d;
     padding: 70px 0;
 }
 .footer-col{
@@ -58,7 +58,7 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #252222;
+	color: #ffff;
 	display: block;
 	transition: all 0.3s ease;
     font-weight: 800;
@@ -89,6 +89,14 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+}
+.footer{
+	background-image: url(../../assets/img/globe.png);
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+	background-color: #0d0d0d;
+    padding: 70px 0;
 }
 }
 @media(max-width: 574px){

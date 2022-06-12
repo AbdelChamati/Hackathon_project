@@ -8,6 +8,7 @@ import image1 from "./assets/img/image1.png";
 import image3 from "./assets/img/image3.png";
 import image5 from "./assets/img/image5.jpeg";
 // import Subscribe from "./components/users/Subscribe";
+import Contact from "./components/contact/Contact"
 
 
 
@@ -27,6 +28,7 @@ function App() {
       subtitle={"You don´t know how to reach your goal, don´t worry!"}
       flipped={true}
       />
+      <Contact />
       {/* <Subscribe /> */}
       <Footer />
     </>
